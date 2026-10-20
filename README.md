@@ -72,25 +72,28 @@ O estudo utiliza dados do ano de 2018 distribuídos nas seguintes tabelas:
 
 ## 📈 Resultados Obtidos e Conclusões
 
-### 1. Padrões de Consumo dos Clientes
+1. Padrões de Consumo dos Clientes
 
-- **Internet móvel:** os clientes do plano Surf apresentam maior ocorrência de cobranças por excedentes de franquia, especialmente no consumo de dados móveis. Já os clientes do plano Ultimate contam com uma franquia maior, de 30 GB, reduzindo a ocorrência dessas cobranças.
-- **Minutos e mensagens:** a análise permite comparar o consumo desses serviços com os limites incluídos em cada plano e identificar possíveis cobranças adicionais.
+Internet móvel: os clientes do plano Surf apresentam maior ocorrência de cobranças por excedentes de franquia, especialmente no consumo de dados móveis. Já os clientes do plano Ultimate contam com uma franquia maior, de 30 GB, reduzindo a ocorrência dessas cobranças.
 
-### 2. Resultados dos Testes Estatísticos
+Minutos e mensagens: a análise permite comparar o consumo desses serviços com os limites incluídos em cada plano e identificar possíveis cobranças adicionais.
 
-- **Receita média por plano:** o teste de hipótese indicou uma diferença estatisticamente significativa entre a receita média dos usuários dos planos Surf e Ultimate (\(p < 0{,}05\)).
-  - A receita mensal média dos usuários do plano **Ultimate** foi de aproximadamente **US$ 72,30**, enquanto a do plano **Surf** foi de aproximadamente **US$ 60,70**.
-- **Diferença regional (NY-NJ vs. outras regiões):** o teste de hipótese não identificou uma diferença estatisticamente significativa entre as receitas médias dos clientes da região metropolitana de NY-NJ e as dos clientes de outras regiões (\(p > 0{,}05\)).
+2. Resultados dos Testes Estatísticos
 
-### 3. Recomendação Comercial
+Receita média por plano: o teste de hipótese identificou uma diferença estatisticamente significativa entre a receita média dos usuários dos planos Surf e Ultimate ((p < 0{,}05)).
 
-- **Direcionamento de Marketing:** com base nos resultados da análise, recomenda-se priorizar campanhas publicitárias para o plano Ultimate caso o objetivo seja aumentar a receita média por cliente. Embora o plano Surf tenha uma mensalidade mais acessível e gere receita adicional com excedentes de franquia, o Ultimate apresentou maior receita média mensal por usuário. A decisão final de investimento também deve considerar os custos operacionais, a aquisição de clientes e o potencial de conversão de cada plano.
+A receita mensal média dos usuários do plano Ultimate foi de aproximadamente US$ 72,12, enquanto a dos usuários do plano Surf foi de aproximadamente US$ 57,29.
 
----
+Diferença regional (NY-NJ vs. outras regiões): o teste de hipótese identificou uma diferença estatisticamente significativa entre as receitas médias dos clientes da região metropolitana de NY-NJ e as dos clientes das demais regiões ((p \approx 0{,}0261)). Como o valor-p é inferior ao nível de significância de 0,05, rejeita-se a hipótese nula de igualdade das médias.
 
-## 📌 Considerações Finais
+3. Recomendação Comercial
 
-O projeto aplicou técnicas de análise exploratória, manipulação de dados e testes estatísticos para investigar o comportamento dos clientes e comparar a receita dos planos de telecomunicações.
+Direcionamento de Marketing: com base nos resultados da análise, recomenda-se considerar campanhas publicitárias para o plano Ultimate caso o objetivo seja aumentar a receita média por cliente. O Ultimate apresentou maior receita média mensal por usuário, enquanto o Surf possui uma mensalidade mais acessível e pode gerar receita adicional com cobranças excedentes. A decisão final de investimento também deve considerar os custos operacionais, a aquisição de clientes e o potencial de conversão de cada plano.
 
-A análise demonstra como Python e suas bibliotecas podem ser utilizados para transformar dados em informações relevantes para a tomada de decisões de negócio.
+📌 Considerações Finais
+
+A análise dos dados dos 500 clientes da Megaline permitiu comparar os padrões de consumo e a receita gerada pelos planos pré-pagos Surf e Ultimate ao longo de 2018.
+
+Os resultados mostraram que o plano Ultimate apresentou maior receita média mensal por usuário, de aproximadamente US$ 72,12, em comparação aos US$ 57,29 do plano Surf. Os testes estatísticos também identificaram diferenças significativas entre as receitas médias dos dois planos e entre os clientes da região de NY-NJ e os das demais regiões.
+
+Com base nesses resultados, o estudo demonstra como a análise exploratória, a visualização de dados e os testes de hipóteses podem apoiar decisões comerciais e o direcionamento de campanhas publicitárias.
