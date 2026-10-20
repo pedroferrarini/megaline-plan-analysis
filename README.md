@@ -1,4 +1,3 @@
-# megaline-plan-analysis
 # 📊 Análise Estatística e Rentabilidade de Planos de Telecomunicações (Megaline)
 
 ## 📌 Contexto do Projeto
